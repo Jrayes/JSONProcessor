@@ -1,0 +1,17 @@
+{
+  "name": "jsonreader",
+  "version": "1.0.0",
+  "description": "a reader and processor for JSON files",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd Records && ../bin/load_files.sh && node ../app.js",
+    "down": "./bin/down.sh",
+    "test": "jest --collectCoverage --runInBand --testPathPattern '__tests__[/][cu]t.*[.]spec[.]'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^25.3.0",
+    "mongodb": "^3.5.6"
+  }
+}
